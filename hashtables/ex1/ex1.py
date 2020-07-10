@@ -3,7 +3,7 @@ def get_indices_of_item_weights(weights, length, limit):
     YOUR CODE HERE
     """
     # Your code here
-    # The Strategy:
+
     # How to approach the problem:
     # create a weight_dict = {}
     weight_dict = {}
