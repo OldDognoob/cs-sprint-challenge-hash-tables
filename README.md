@@ -23,11 +23,30 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+
+Is a function where the input is any data and the output is a number
+example : takes an input image -----> hash function h(x)------> a number
+
 2. Collision resolution
+
+ Is when two or more items should kept in the same location. 
+ Is when a key maps to the same index as another key , this is called collision resolution.
+
+
 3. Performance of basic hash table operations
+The performance of a good hash table, if and only the load factor never exceeds some fixed value then will might be 0(1) 
+
 4. Load factor
+Is the way to measure of how full the hash table is allowed to get before its capacity automatically increased. It needs to understand that the number of entries and its load factor should be taken into account when we are setting the initial capacity. The load capacity needs to be less than one and so the numbers of entries  greater than the number of buckets
+
 5. Automatic resizing
+Means the ability to increase the dictionary in order to accommodate new entries.
+We need to calculate the new table size
+Allocate the new keys objects 
+Adding all entries to the new array of entires
+
 6. Various use cases for hash tables
+ Dictionaries are implemented using hash tables
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 

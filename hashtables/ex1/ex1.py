@@ -10,8 +10,8 @@ def get_indices_of_item_weights(weights, length, limit):
     # Check if already exists in weight_dict
     for i in range(length): 
         # create a variable value were limited_weight is equal with the limit weight - weight indexes
-        limited_weight = (limit-weights[i])
-        value = weight_dict.get(limited_weight)
+        # limited_weight = (limit-weights[i])
+        value = weight_dict.get(limit-weights[i])
         #if we find the value in weight_dict list:
         if value is not None:
             #can return a tuple with the index
