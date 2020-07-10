@@ -33,12 +33,13 @@ def reconstruct_trip(tickets, length):
     
     
     ticket_dict = {}
+    route = []
    
     
     for ticket in tickets:
         ticket_dict[ticket.source] = ticket.destination
 
-    route = []
+    
     curr_city = ticket_dict['NONE']
     route.append(curr_city)
 
